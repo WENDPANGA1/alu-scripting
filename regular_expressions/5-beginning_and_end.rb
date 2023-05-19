@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby
 
-puts ARGV[0].SCAN(/h.n/).join
+puts ARGV[0]=~(/h.n/)
